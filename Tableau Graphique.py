@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+
+#verticales
     x=[]
     y=[]
     x.append(i)
@@ -8,3 +11,5 @@
 '''
 for i in range (0,80,10):
     plt.plot([i,i],[0,80],'b')
+plt.grid()
+plt.show()
